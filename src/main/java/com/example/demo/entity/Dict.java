@@ -3,6 +3,7 @@ package com.example.demo.entity;
 import java.io.Serializable;
 
 public class Dict implements Serializable {
+    private Long id; // 主键
     private String dictCode; // 字典编码
     private String originalCode; // 原编码
     private String originalCodeMeaning; // 原编码含义
